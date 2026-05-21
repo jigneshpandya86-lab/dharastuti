@@ -92,8 +92,35 @@
   letter-spacing: 0.05em;
 }
 
+.art-card-footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--color-border);
+}
+
 .art-card-price {
   font-size: 1rem;
   font-weight: 500;
-  margin-top: 0.25rem;
+}
+
+.btn-text {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text);
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.btn-text:hover {
+  border-bottom-color: var(--color-text);
 }

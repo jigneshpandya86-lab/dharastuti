@@ -1,10 +1,14 @@
+import { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { artworks } from '../data/mockData';
+import { useCart } from '../context/CartContext';
 import './ArtworkDetail.css';
 
 export default function ArtworkDetail() {
   const { id } = useParams<{ id: string }>();
   const artwork = artworks.find(a => a.id === id);
+  const [activeImage, setActiveImage] = useState(artwork?.images[0] || '');
+  const { addToCart } = useCart();
 
   if (!artwork) {
     return <div className="container" style={{ padding: '4rem 0', textAlign: 'center' }}>Artwork not found.</div>;
@@ -12,7 +16,7 @@ export default function ArtworkDetail() {
 
   // Pre-filled WhatsApp message based on availability
   const waMessage = artwork.isAvailable 
-    ? `Hi Dharastuti Art, I'm interested in the artwork '${artwork.title}' (Code: ${artwork.code}). Is this still available for delivery?`
+    ? `Hi Dharastuti Art, I'm interested in the artwork '${artwork.title}' (SKU: ${artwork.sku}). Is this still available for delivery?`
     : `Hi! I saw the '${artwork.title}' piece was sold, but I love the style. Do you take commissions for similar pieces?`;
   
   const waLink = `https://wa.me/919725001354?text=${encodeURIComponent(waMessage)}`;
@@ -27,15 +31,29 @@ export default function ArtworkDetail() {
       <div className="pdp-grid">
         {/* Left: Gallery */}
         <div className="pdp-gallery">
-          <img src={artwork.image} alt={artwork.title} className="pdp-main-image" />
-          {/* Add more images here if available */}
+          <div className="pdp-main-image-container">
+            <img src={activeImage} alt={artwork.title} className="pdp-main-image" />
+          </div>
+          {artwork.images.length > 1 && (
+            <div className="pdp-thumbnails">
+              {artwork.images.map((img, idx) => (
+                <button 
+                  key={idx} 
+                  className={`pdp-thumbnail ${activeImage === img ? 'active' : ''}`}
+                  onClick={() => setActiveImage(img)}
+                >
+                  <img src={img} alt={`${artwork.title} view ${idx + 1}`} />
+                </button>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Right: Info */}
         <div className="pdp-info">
           <div className="pdp-header">
             <h1 className="pdp-title text-serif">{artwork.title}</h1>
-            <p className="pdp-code text-sans">{artwork.code}</p>
+            <p className="pdp-code text-sans">{artwork.sku}</p>
           </div>
 
           <div className="pdp-price-status">
@@ -47,9 +65,23 @@ export default function ArtworkDetail() {
           </div>
 
           <div className="pdp-actions">
-            <a href={waLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-full">
-              {artwork.isAvailable ? "Inquire on WhatsApp" : "Request a Similar Piece"}
-            </a>
+            {artwork.isAvailable ? (
+              <div className="pdp-action-buttons">
+                <button 
+                  className="btn btn-primary btn-full"
+                  onClick={() => addToCart(artwork)}
+                >
+                  Add to Cart
+                </button>
+                <a href={waLink} target="_blank" rel="noopener noreferrer" className="btn btn-outline btn-full">
+                  Inquire on WhatsApp
+                </a>
+              </div>
+            ) : (
+              <a href={waLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-full">
+                Request a Similar Piece
+              </a>
+            )}
             <p className="pdp-notice text-sans">
               * Unique artwork: Only one exists.
             </p>

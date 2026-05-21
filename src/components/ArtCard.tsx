@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Artwork } from '../data/mockData';
+import { useCart } from '../context/CartContext';
 import './ArtCard.css';
 
 interface ArtCardProps {
@@ -7,11 +8,13 @@ interface ArtCardProps {
 }
 
 export default function ArtCard({ artwork }: ArtCardProps) {
+  const { addToCart } = useCart();
+
   return (
     <div className="art-card">
       <Link to={`/artworks/${artwork.id}`} className="art-card-image-link">
         <div className="art-card-image-container">
-          <img src={artwork.image} alt={artwork.title} className="art-card-image" loading="lazy" />
+          <img src={artwork.images[0]} alt={artwork.title} className="art-card-image" loading="lazy" />
           
           <div className="art-card-badges">
             <span className="badge">1 OF 1</span>
@@ -29,7 +32,20 @@ export default function ArtCard({ artwork }: ArtCardProps) {
           <Link to={`/artworks/${artwork.id}`}>{artwork.title}</Link>
         </h3>
         <p className="art-card-medium text-sans">{artwork.medium}</p>
-        <p className="art-card-price text-sans">{artwork.price}</p>
+        <div className="art-card-footer">
+          <p className="art-card-price text-sans">{artwork.price}</p>
+          {artwork.isAvailable && (
+            <button 
+              className="btn-text" 
+              onClick={(e) => {
+                e.preventDefault();
+                addToCart(artwork);
+              }}
+            >
+              Add to Cart
+            </button>
+          )}
+        </div>
       </div>
     </div>
   );
