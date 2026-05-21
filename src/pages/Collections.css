@@ -1,0 +1,66 @@
+.collections-page {
+  padding: var(--spacing-xl) 0;
+}
+
+.collections-header {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.collections-header h1 {
+  font-size: 3rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+.collections-header p {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+}
+
+.filter-bar {
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--spacing-md) 0;
+  margin-bottom: var(--spacing-xl);
+  position: sticky;
+  top: 80px;
+  background-color: var(--color-bg);
+  z-index: 10;
+}
+
+.filter-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+}
+
+.filter-toggle {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.filter-select {
+  padding: 0.5rem;
+  border: 1px solid var(--color-border);
+  background-color: transparent;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: var(--color-text);
+}
+
+.empty-state {
+  padding: var(--spacing-xxl) 0;
+}

@@ -1,0 +1,99 @@
+.art-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.art-card-image-link {
+  display: block;
+  overflow: hidden;
+}
+
+.art-card-image-container {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  background-color: var(--color-border);
+  overflow: hidden;
+}
+
+.art-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.art-card-image-container:hover .art-card-image {
+  transform: scale(1.05);
+}
+
+.art-card-badges {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  z-index: 2;
+}
+
+.art-card-hover-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(251, 251, 251, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.art-card-image-container:hover .art-card-hover-overlay {
+  opacity: 1;
+}
+
+.view-details {
+  background-color: var(--color-bg);
+  padding: 0.75rem 1.5rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.art-card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.25rem;
+}
+
+.art-card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.art-card-title a {
+  transition: opacity 0.3s ease;
+}
+
+.art-card-title a:hover {
+  opacity: 0.7;
+}
+
+.art-card-medium {
+  font-size: 0.85rem;
+  color: var(--color-text);
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.art-card-price {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 0.25rem;
+}

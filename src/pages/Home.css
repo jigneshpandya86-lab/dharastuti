@@ -1,0 +1,117 @@
+.hero {
+  height: 80vh;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--color-border);
+  background-image: linear-gradient(rgba(251, 251, 251, 0.8), rgba(251, 251, 251, 0.8)), url('https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?auto=format&fit=crop&q=80&w=1600');
+  background-size: cover;
+  background-position: center;
+  padding: 0 var(--spacing-md);
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero-title {
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  margin-bottom: var(--spacing-md);
+}
+
+.hero-subtitle {
+  font-size: 1.125rem;
+  margin-bottom: var(--spacing-lg);
+  opacity: 0.8;
+}
+
+.section {
+  padding: var(--spacing-xxl) 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-xl);
+}
+
+.bg-soft {
+  background-color: #F5F5F5;
+  padding: var(--spacing-xxl) var(--spacing-md);
+}
+
+.collection-grid {
+  gap: var(--spacing-md);
+}
+
+.collection-tile {
+  position: relative;
+  aspect-ratio: 1;
+  background-color: var(--color-text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--color-bg);
+}
+
+.collection-tile-bg {
+  position: absolute;
+  inset: 0;
+  background-image: url('https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&q=80&w=800');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.collection-tile:nth-child(2) .collection-tile-bg { background-image: url('https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&q=80&w=800'); }
+.collection-tile:nth-child(3) .collection-tile-bg { background-image: url('https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&q=80&w=800'); }
+
+.collection-tile:hover .collection-tile-bg {
+  opacity: 0.6;
+  transform: scale(1.05);
+}
+
+.collection-tile-title {
+  position: relative;
+  z-index: 1;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: var(--spacing-md);
+}
+
+.commission-banner {
+  background-color: var(--color-text);
+  color: var(--color-bg);
+  padding: var(--spacing-xxl) 0;
+  text-align: center;
+}
+
+.commission-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.commission-banner h2 {
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.commission-banner p {
+  margin-bottom: var(--spacing-lg);
+  opacity: 0.8;
+}
+
+.commission-banner .btn-outline {
+  border-color: var(--color-bg);
+  color: var(--color-bg);
+}
+
+.commission-banner .btn-outline:hover {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
