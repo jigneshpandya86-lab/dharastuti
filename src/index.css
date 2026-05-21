@@ -11,9 +11,17 @@
   
   --spacing-sm: 0.5rem;
   --spacing-md: 1rem;
-  --spacing-lg: 2rem;
-  --spacing-xl: 4rem;
-  --spacing-xxl: 8rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 3rem;
+  --spacing-xxl: 5rem;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --spacing-lg: 2rem;
+    --spacing-xl: 4rem;
+    --spacing-xxl: 8rem;
+  }
 }
 
 * {
@@ -107,11 +115,12 @@ a {
   padding: 0 var(--spacing-md);
 }
 
-.grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--spacing-lg); }
+.grid-2 { display: grid; grid-template-columns: repeat(1, 1fr); gap: var(--spacing-lg); }
 .grid-3 { display: grid; grid-template-columns: repeat(1, 1fr); gap: var(--spacing-lg); }
 .grid-4 { display: grid; grid-template-columns: repeat(1, 1fr); gap: var(--spacing-lg); }
 
 @media (min-width: 768px) {
+  .grid-2 { grid-template-columns: repeat(2, 1fr); }
   .grid-3 { grid-template-columns: repeat(2, 1fr); }
   .grid-4 { grid-template-columns: repeat(2, 1fr); }
 }
