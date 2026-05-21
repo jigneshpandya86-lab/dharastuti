@@ -5,6 +5,7 @@ export interface Artwork {
   sku: string;
   title: string;
   collection: string;
+  category: string;
   price: string;
   isAvailable: boolean;
   images: string[];

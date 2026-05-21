@@ -5,11 +5,17 @@ import { Filter } from 'lucide-react';
 import './Collections.css';
 
 export default function Collections() {
-  const [filter, setFilter] = useState('all');
+  const [availabilityFilter, setAvailabilityFilter] = useState('all');
+  const [categoryFilter, setCategoryFilter] = useState('all');
 
-  const filteredArtworks = filter === 'available' 
-    ? artworks.filter(a => a.isAvailable) 
-    : artworks;
+  // Get unique categories from artworks
+  const categories = ['all', ...new Set(artworks.map(a => a.category))];
+
+  const filteredArtworks = artworks.filter(a => {
+    const matchesAvailability = availabilityFilter === 'all' || (availabilityFilter === 'available' && a.isAvailable);
+    const matchesCategory = categoryFilter === 'all' || a.category === categoryFilter;
+    return matchesAvailability && matchesCategory;
+  });
 
   return (
     <div className="collections-page">
@@ -29,8 +35,19 @@ export default function Collections() {
             <div className="filter-options">
               <select 
                 className="filter-select text-sans"
-                value={filter}
-                onChange={(e) => setFilter(e.target.value)}
+                value={categoryFilter}
+                onChange={(e) => setCategoryFilter(e.target.value)}
+              >
+                <option value="all">Category: All</option>
+                {categories.filter(c => c !== 'all').map(category => (
+                  <option key={category} value={category}>Category: {category}</option>
+                ))}
+              </select>
+
+              <select 
+                className="filter-select text-sans"
+                value={availabilityFilter}
+                onChange={(e) => setAvailabilityFilter(e.target.value)}
               >
                 <option value="all">Availability: All</option>
                 <option value="available">Availability: Available Only</option>
