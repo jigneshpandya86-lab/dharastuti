@@ -22,7 +22,7 @@ export default function Header({ onCartOpen, onMenuOpen }: HeaderProps) {
         
         <div className="header-center">
           <Link to="/" className="logo text-serif">
-            Dharastuti Art
+            Dharastuti
           </Link>
         </div>
         

@@ -10,9 +10,9 @@ interface NavigationProps {
 export default function Navigation({ isOpen, onClose }: NavigationProps) {
   const menuItems = [
     { label: 'Home', path: '/' },
-    { label: 'All Collections', path: '/collections' },
+    { label: 'Heritage Collections', path: '/collections' },
     { label: 'Our Story', path: '/our-story' },
-    { label: 'Custom Commissions', path: '/commissions' },
+    { label: 'Bespoke Traditions', path: '/commissions' },
     { label: 'Exhibitions', path: '/exhibitions' },
     { label: 'Workshops', path: '/workshops' },
     { label: 'Testimonials', path: '/testimonials' },
@@ -55,7 +55,7 @@ export default function Navigation({ isOpen, onClose }: NavigationProps) {
               <Mail size={20} />
             </a>
           </div>
-          <p className="nav-copyright text-sans">&copy; 2026 Dharastuti Art</p>
+          <p className="nav-copyright text-sans">&copy; 2026 Dharastuti</p>
         </div>
       </div>
     </>

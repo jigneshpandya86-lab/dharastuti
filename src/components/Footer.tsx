@@ -6,16 +6,17 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-grid">
         <div className="footer-col">
-          <h3 className="footer-logo text-serif">Dharastuti Art</h3>
-          <p className="footer-mission">Unique Handcrafted Art for Modern Spaces. Every piece is a 1-of-1 original.</p>
+          <h3 className="footer-logo text-serif">Dharastuti</h3>
+          <p className="footer-mission">Draping Tradition with Pride. Authentic Bhartiya heritage wear, directly from master artisans.</p>
         </div>
         
         <div className="footer-col">
-          <h4 className="footer-heading text-sans">Artworks</h4>
+          <h4 className="footer-heading text-sans">Collections</h4>
           <ul className="footer-links">
-            <li><Link to="/collections">All Collections</Link></li>
-            <li><Link to="/commissions">Commissions</Link></li>
-            <li><Link to="/new-arrivals">New Arrivals</Link></li>
+            <li><Link to="/collections">All Heritage Wear</Link></li>
+            <li><Link to="/collections">Sarees</Link></li>
+            <li><Link to="/collections">Unstitched Sets</Link></li>
+            <li><Link to="/collections">Gents' Kurtas</Link></li>
           </ul>
         </div>
         
@@ -39,7 +40,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom container">
-        <p>&copy; {new Date().getFullYear()} Dharastuti Art. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Dharastuti. A unit of ART Enterprise. All rights reserved.</p>
       </div>
     </footer>
   );

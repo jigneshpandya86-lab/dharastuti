@@ -15,12 +15,14 @@ export interface Artwork {
 }
 
 export const collections = [
-  "Intricate Mandalas",
-  "Textured Abstracts",
-  "Sacred Geometry",
-  "Botanical Series",
-  "Monochrome Charcoal",
-  "Mixed Media Canvas"
+  "Natural Dyed Block Prints",
+  "Tie & Dye Bandhej",
+  "Narayanpet Handlooms",
+  "Bengal Jamdani",
+  "Unstitched Dress Materials",
+  "Premium Fabrics",
+  "Gents' Kurtas",
+  "Timeless Sarees"
 ];
 
 export const artworks: Artwork[] = artworksData;

@@ -11,17 +11,17 @@ export default function Home() {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <h1 className="hero-title text-serif">Unique Handcrafted Art for Modern Spaces</h1>
-          <p className="hero-subtitle text-sans">Discover 1-of-1 exclusive pieces directly from the artist's studio.</p>
-          <Link to="/collections" className="btn btn-primary">Browse Available Works</Link>
+          <h1 className="hero-title text-serif">Draping Tradition with Pride</h1>
+          <p className="hero-subtitle text-sans">Discover authentic Bhartiya heritage wear, hand-woven with love and history.</p>
+          <Link to="/collections" className="btn btn-primary">Browse Collections</Link>
         </div>
       </section>
 
       {/* Featured Collections */}
       <section className="section container">
-        <h2 className="section-title text-serif">Curated Collections</h2>
+        <h2 className="section-title text-serif">Heritage Collections</h2>
         <div className="grid-3 collection-grid">
-          {collections.map((collection, index) => (
+          {collections.slice(0, 6).map((collection, index) => (
             <Link to="/collections" key={index} className="collection-tile">
               <div className="collection-tile-bg"></div>
               <h3 className="collection-tile-title text-serif">{collection}</h3>
@@ -32,7 +32,7 @@ export default function Home() {
 
       {/* New Arrivals */}
       <section className="section container bg-soft">
-        <h2 className="section-title text-serif">New Arrivals</h2>
+        <h2 className="section-title text-serif">Handpicked Treasures</h2>
         <div className="grid-4">
           {newArrivals.map((art) => (
             <ArtCard key={art.id} artwork={art} />
@@ -43,9 +43,9 @@ export default function Home() {
       {/* Commission Banner */}
       <section className="commission-banner">
         <div className="commission-content container">
-          <h2 className="text-serif">Your Story, My Canvas</h2>
-          <p className="text-sans">Work directly with the artist to create a custom piece tailored to your space.</p>
-          <a href="https://wa.me/919725001354?text=Hello!%20I’d%20like%20to%20discuss%20a%20custom%20commission." target="_blank" rel="noopener noreferrer" className="btn btn-outline">Start a Commission</a>
+          <h2 className="text-serif">Bespoke Traditions</h2>
+          <p className="text-sans">Looking for something specific? Connect with us for custom handloom requirements.</p>
+          <a href="https://wa.me/919725001354?text=Hello!%20I’d%20like%20to%20discuss%20a%20custom%20handloom%20requirement." target="_blank" rel="noopener noreferrer" className="btn btn-outline">Inquire on WhatsApp</a>
         </div>
       </section>
     </div>

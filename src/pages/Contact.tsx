@@ -5,7 +5,7 @@ export default function Contact() {
       <div className="grid-2" style={{ gap: '4rem' }}>
         <div>
           <p className="text-sans" style={{ marginBottom: '2rem', fontSize: '1.1rem' }}>
-            Have a question about a piece, shipping, or just want to say hello? Get in touch using the form or through our direct channels.
+            Have a question about our heritage collections, shipping, or just want to say hello? Get in touch using the form or through our direct channels.
           </p>
           <div className="text-sans" style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
             <p><strong>Email:</strong> dharastuti.art@gmail.com</p>
