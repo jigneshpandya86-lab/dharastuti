@@ -40,6 +40,17 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Story Teaser */}
+      <section className="section container text-center">
+        <div style={{ maxWidth: '800px', margin: '0 auto' }}>
+          <h2 className="text-serif">Engineering a Revival of Tradition</h2>
+          <p className="text-sans" style={{ fontSize: '1.1rem', lineHeight: '1.8', marginBottom: '2rem' }}>
+            What began as a mechanical engineer’s passion for precision has evolved into a family mission to bring the authentic soul of Bharat’s craftsmanship into modern life. Under the lateral “DHARASTUTI”, we preserve and promote the breathtaking diversity of Bhartiya handlooms.
+          </p>
+          <Link to="/our-story" className="btn btn-outline">Read Our Full Story</Link>
+        </div>
+      </section>
+
       {/* Commission Banner */}
       <section className="commission-banner">
         <div className="commission-content container">

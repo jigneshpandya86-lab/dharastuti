@@ -1,10 +1,10 @@
 export default function Contact() {
   return (
-    <div className="container" style={{ padding: '4rem 0' }}>
-      <h1 className="text-serif" style={{ fontSize: '3rem', marginBottom: '2rem' }}>Contact Us</h1>
-      <div className="grid-2" style={{ gap: '4rem' }}>
+    <div className="page-container" style={{ maxWidth: '1200px' }}>
+      <h1 className="text-serif">Contact Us</h1>
+      <div className="grid-2" style={{ gap: '4rem', marginTop: '3rem' }}>
         <div>
-          <p className="text-sans" style={{ marginBottom: '2rem', fontSize: '1.1rem' }}>
+          <p className="text-sans" style={{ marginBottom: '2rem', fontSize: '1.125rem', lineHeight: '1.8' }}>
             Have a question about our heritage collections, shipping, or just want to say hello? Get in touch using the form or through our direct channels.
           </p>
           <div className="text-sans" style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
