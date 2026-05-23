@@ -5,29 +5,75 @@ import { artworks, collections } from '../data/mockData';
 import './Home.css';
 
 export default function Home() {
+  const [heroIndex, setHeroIndex] = useState(0);
   const [activeIndex, setActiveIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
   const sliderRef = useRef<HTMLDivElement>(null);
+  
+  const heroSlides = [
+    {
+      title: "Draping Tradition with Pride",
+      subtitle: "Discover authentic Bhartiya heritage wear, hand-woven with love and history.",
+      image: "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?auto=format&fit=crop&q=80&w=1600"
+    },
+    {
+      title: "Engineering a Revival of Tradition",
+      subtitle: "Bridging the gap between rural master artisans and modern lifestyles.",
+      image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=1600"
+    },
+    {
+      title: "Weaving the Soul of the Soil",
+      subtitle: "Handpicked treasures from every corner of Bharat, directly to you.",
+      image: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&q=80&w=1600"
+    }
+  ];
+
   const newArrivals = artworks.slice(0, 5); // Take first 5 for the slider
+
+  useEffect(() => {
+    const heroInterval = setInterval(() => {
+      setHeroIndex((current) => (current + 1) % heroSlides.length);
+    }, 6000); // Rotate hero every 6 seconds
+
+    return () => clearInterval(heroInterval);
+  }, [heroSlides.length]);
 
   useEffect(() => {
     if (isPaused) return;
 
     const interval = setInterval(() => {
       setActiveIndex((current) => (current + 1) % newArrivals.length);
-    }, 4000); // Auto scroll every 4 seconds
+    }, 4000); // Auto scroll SKU slider every 4 seconds
 
     return () => clearInterval(interval);
   }, [newArrivals.length, isPaused]);
 
   return (
     <div className="home">
-      {/* Hero Section */}
+      {/* Hero Section Slider */}
       <section className="hero">
-        <div className="hero-content">
-          <h1 className="hero-title text-serif">Draping Tradition with Pride</h1>
-          <p className="hero-subtitle text-sans">Discover authentic Bhartiya heritage wear, hand-woven with love and history.</p>
-          <Link to="/collections" className="btn btn-primary">Browse Collections</Link>
+        {heroSlides.map((slide, index) => (
+          <div 
+            key={index} 
+            className={`hero-slide ${heroIndex === index ? 'active' : ''}`}
+            style={{ backgroundImage: `url(${slide.image})` }}
+          >
+            <div className="hero-content">
+              <h1 className="hero-title text-serif">{slide.title}</h1>
+              <p className="hero-subtitle text-sans">{slide.subtitle}</p>
+              <Link to="/collections" className="btn btn-primary">Browse Collections</Link>
+            </div>
+          </div>
+        ))}
+        <div className="hero-dots">
+          {heroSlides.map((_, idx) => (
+            <button 
+              key={idx} 
+              className={`hero-dot ${heroIndex === idx ? 'active' : ''}`}
+              onClick={() => setHeroIndex(idx)}
+              aria-label={`Go to slide ${idx + 1}`}
+            />
+          ))}
         </div>
       </section>
 
