@@ -1,10 +1,24 @@
+import { useEffect, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import ArtCard from '../components/ArtCard';
 import { artworks, collections } from '../data/mockData';
 import './Home.css';
 
 export default function Home() {
-  const newArrivals = artworks.slice(0, 4);
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
+  const sliderRef = useRef<HTMLDivElement>(null);
+  const newArrivals = artworks.slice(0, 5); // Take first 5 for the slider
+
+  useEffect(() => {
+    if (isPaused) return;
+
+    const interval = setInterval(() => {
+      setActiveIndex((current) => (current + 1) % newArrivals.length);
+    }, 4000); // Auto scroll every 4 seconds
+
+    return () => clearInterval(interval);
+  }, [newArrivals.length, isPaused]);
 
   return (
     <div className="home">
@@ -30,12 +44,40 @@ export default function Home() {
         </div>
       </section>
 
-      {/* New Arrivals */}
-      <section className="section container bg-soft">
-        <h2 className="section-title text-serif">Handpicked Treasures</h2>
-        <div className="grid-4">
-          {newArrivals.map((art) => (
-            <ArtCard key={art.id} artwork={art} />
+      {/* New Arrivals Slider */}
+      <section className="section bg-soft">
+        <div className="container">
+          <h2 className="section-title text-serif">Handpicked Treasures</h2>
+        </div>
+        
+        <div 
+          className="slider-container" 
+          ref={sliderRef}
+          onMouseEnter={() => setIsPaused(true)}
+          onMouseLeave={() => setIsPaused(false)}
+        >
+          <div 
+            className="slider-track" 
+            style={{ 
+              transform: `translateX(calc(-${activeIndex} * var(--slider-item-width) - ${activeIndex} * var(--spacing-lg)))` 
+            }}
+          >
+            {newArrivals.map((art) => (
+              <div key={art.id} className="slider-item">
+                <ArtCard artwork={art} />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="slider-controls">
+          {newArrivals.map((_, idx) => (
+            <button
+              key={idx}
+              className={`slider-dot ${activeIndex === idx ? 'active' : ''}`}
+              onClick={() => setActiveIndex(idx)}
+              aria-label={`Go to slide ${idx + 1}`}
+            />
           ))}
         </div>
       </section>
