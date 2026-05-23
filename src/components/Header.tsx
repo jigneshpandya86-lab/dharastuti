@@ -16,7 +16,7 @@ export default function Header({ onCartOpen, onMenuOpen }: HeaderProps) {
       <div className="header-container">
         <div className="header-left">
           <button className="icon-btn" aria-label="Menu" onClick={onMenuOpen}>
-            <Menu size={24} />
+            <Menu size={20} />
           </button>
         </div>
         
@@ -28,14 +28,14 @@ export default function Header({ onCartOpen, onMenuOpen }: HeaderProps) {
         
         <div className="header-right">
           <button className="icon-btn" aria-label="Search">
-            <Search size={24} />
+            <Search size={20} />
           </button>
           <button className="icon-btn cart-btn" aria-label="Open cart" onClick={onCartOpen}>
-            <ShoppingBag size={24} />
+            <ShoppingBag size={20} />
             {cartCount > 0 && <span className="cart-badge">{cartCount}</span>}
           </button>
           <a href="https://wa.me/919725001354" target="_blank" rel="noopener noreferrer" className="icon-btn" aria-label="Inquire">
-            <MessageCircle size={24} />
+            <MessageCircle size={20} />
           </a>
         </div>
       </div>

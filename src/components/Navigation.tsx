@@ -26,7 +26,7 @@ export default function Navigation({ isOpen, onClose }: NavigationProps) {
       <div className={`nav-drawer ${isOpen ? 'open' : ''}`}>
         <div className="nav-header">
           <button className="icon-btn" onClick={onClose} aria-label="Close menu">
-            <X size={24} />
+            <X size={20} />
           </button>
         </div>
 
