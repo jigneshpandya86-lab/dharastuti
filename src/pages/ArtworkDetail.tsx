@@ -96,17 +96,28 @@ export default function ArtworkDetail() {
             <div className="pdp-detail-section">
               <h3 className="text-sans">Specifications</h3>
               <ul className="text-sans">
-                <li><strong>Medium:</strong> {artwork.medium}</li>
+                <li><strong>Fabric:</strong> {artwork.medium}</li>
+                {artwork.pattern && <li><strong>Pattern:</strong> {artwork.pattern}</li>}
                 <li><strong>Dimensions:</strong> {artwork.size}</li>
                 <li><strong>Collection:</strong> {artwork.collection}</li>
               </ul>
             </div>
 
+            {artwork.washingTips && (
+              <div className="pdp-detail-section">
+                <h3 className="text-sans">Care Instructions</h3>
+                <p className="text-sans" style={{ whiteSpace: 'pre-line' }}>
+                  {artwork.washingTips}
+                </p>
+              </div>
+            )}
+
             <div className="pdp-detail-section">
-              <h3 className="text-sans">Shipping & Care</h3>
+              <h3 className="text-sans">Shipping & Returns</h3>
               <p className="text-sans">
                 <strong>Local (Vadodara):</strong> Complimentary studio pickup or secure hand-delivery.<br/>
-                <strong>Domestic:</strong> Securely packaged and shipped across India via premium art couriers. Dispatch within 3-5 business days.
+                <strong>Domestic:</strong> Securely packaged and shipped across India. Shipping & COD charges are non-refundable (₹200).<br/>
+                <strong>Returns:</strong> Requests must be raised within 48 hours of receipt with an unboxing video.
               </p>
             </div>
           </div>

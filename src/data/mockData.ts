@@ -12,6 +12,8 @@ export interface Artwork {
   size: string;
   medium: string;
   description: string;
+  pattern?: string;
+  washingTips?: string;
 }
 
 export const collections = [

@@ -16,7 +16,7 @@ export default function Navigation({ isOpen, onClose }: NavigationProps) {
     { label: 'Exhibitions', path: '/exhibitions' },
     { label: 'Workshops', path: '/workshops' },
     { label: 'Testimonials', path: '/testimonials' },
-    { label: 'Shipping Policy', path: '/shipping-policy' },
+    { label: 'Policies & Care', path: '/shipping-policy' },
     { label: 'Contact Us', path: '/contact' },
   ];
 
