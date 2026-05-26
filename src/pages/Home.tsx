@@ -59,6 +59,7 @@ export default function Home() {
             style={{ backgroundImage: `url(${slide.image})` }}
           >
             <div className="hero-content">
+              <img src="/images/logo.jpeg" alt="Dharastuti Logo" className="hero-logo" />
               <h1 className="hero-title text-serif">{slide.title}</h1>
               <p className="hero-subtitle text-sans">{slide.subtitle}</p>
               <Link to="/collections" className="btn btn-primary">Browse Collections</Link>
