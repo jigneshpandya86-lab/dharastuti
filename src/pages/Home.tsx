@@ -14,17 +14,20 @@ export default function Home() {
     {
       title: "Draping Tradition with Pride",
       subtitle: "Discover authentic Bhartiya heritage wear, hand-woven with love and history.",
-      image: "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?auto=format&fit=crop&q=80&w=1600"
+      image: "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?auto=format&fit=crop&q=80&w=1600",
+      theme: 'theme-dark'
     },
     {
       title: "Engineering a Revival of Tradition",
       subtitle: "Bridging the gap between rural master artisans and modern lifestyles.",
-      image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=1600"
+      image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=1600",
+      theme: 'theme-dark'
     },
     {
       title: "Weaving the Soul of the Soil",
       subtitle: "Handpicked treasures from every corner of Bharat, directly to you.",
-      image: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&q=80&w=1600"
+      image: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&q=80&w=1600",
+      theme: 'theme-light'
     }
   ];
 
@@ -55,7 +58,7 @@ export default function Home() {
         {heroSlides.map((slide, index) => (
           <div 
             key={index} 
-            className={`hero-slide ${heroIndex === index ? 'active' : ''}`}
+            className={`hero-slide ${heroIndex === index ? 'active' : ''} ${slide.theme}`}
             style={{ backgroundImage: `url(${slide.image})` }}
           >
             <div className="hero-content">

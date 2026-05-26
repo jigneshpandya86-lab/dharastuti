@@ -28,15 +28,23 @@
   z-index: 2;
 }
 
+/* Overlay for better text legibility */
 .hero-slide::before {
   content: '';
   position: absolute;
   inset: 0;
-  background-color: rgba(251, 251, 251, 0.75);
-  z-index: -1;
+  background-color: rgba(251, 251, 251, 0.6); /* Default light overlay */
+  z-index: 1;
+}
+
+/* Dark theme for slides with dark backgrounds */
+.hero-slide.theme-dark::before {
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .hero-content {
+  position: relative;
+  z-index: 2;
   max-width: 800px;
   transform: translateY(20px);
   transition: transform 1s ease;
@@ -53,16 +61,28 @@
   filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
 }
 
+.hero-slide.theme-dark .hero-logo {
+  filter: brightness(0) invert(1) drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+}
+
 .hero-title {
   font-size: clamp(2.5rem, 10vw, 5rem);
   margin-bottom: var(--spacing-md);
   line-height: 1.1;
+  color: var(--color-text);
+}
+
+.hero-slide.theme-dark .hero-title,
+.hero-slide.theme-dark .hero-subtitle {
+  color: #FFFFFF;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.3);
 }
 
 .hero-subtitle {
   font-size: 1.25rem;
   margin-bottom: var(--spacing-lg);
   opacity: 0.9;
+  color: var(--color-text);
 }
 
 .hero-dots {
@@ -194,8 +214,17 @@
   background-image: url('/images/artworks/SKU1a.jpeg');
   background-size: cover;
   background-position: center;
-  opacity: 0.5;
+  opacity: 0.7; /* Increased opacity for better product visibility */
   transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Add a subtle dark gradient to make white text pop */
+.collection-tile::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%);
+  z-index: 1;
 }
 
 .collection-tile:nth-child(2) .collection-tile-bg { background-image: url('/images/artworks/SKU2a.jpeg'); }
