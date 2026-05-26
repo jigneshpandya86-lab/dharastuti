@@ -1,30 +1,23 @@
-import { useEffect, useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 import ArtCard from '../components/ArtCard';
 import { artworks, collections } from '../data/mockData';
 import './Home.css';
 
 export default function Home() {
   const [activeIndex, setActiveIndex] = useState(0);
-  const [isPaused, setIsPaused] = useState(false);
   const sliderRef = useRef<HTMLDivElement>(null);
   
-  const newArrivals = artworks.slice(0, 5); // Take first 5 for the slider
+  const newArrivals = artworks.slice(0, 12); // Show more items for manual browsing
 
-  useEffect(() => {
-    if (isPaused) return;
+  const handlePrev = () => {
+    setActiveIndex((prev) => (prev > 0 ? prev - 1 : newArrivals.length - 1));
+  };
 
-    // Start scrolling Handpicked Treasures only after 3 seconds
-    const timeout = setTimeout(() => {
-      const interval = setInterval(() => {
-        setActiveIndex((current) => (current + 1) % newArrivals.length);
-      }, 4000); // Auto scroll SKU slider every 4 seconds
-      
-      return () => clearInterval(interval);
-    }, 3000);
-
-    return () => clearTimeout(timeout);
-  }, [newArrivals.length, isPaused]);
+  const handleNext = () => {
+    setActiveIndex((prev) => (prev < newArrivals.length - 1 ? prev + 1 : 0));
+  };
 
   return (
     <div className="home">
@@ -34,18 +27,21 @@ export default function Home() {
         className="hero-logo-fixed" 
       />
 
-      {/* New Arrivals Slider (Now at Top) */}
+      {/* New Arrivals Slider (Now Manual) */}
       <section className="section bg-soft no-padding-top">
-        <div className="container">
+        <div className="container slider-header">
           <h2 className="section-title text-serif">Handpicked Treasures</h2>
+          <div className="manual-controls">
+            <button className="icon-btn-outline" onClick={handlePrev} aria-label="Previous">
+              <ChevronLeft size={20} />
+            </button>
+            <button className="icon-btn-outline" onClick={handleNext} aria-label="Next">
+              <ChevronRight size={20} />
+            </button>
+          </div>
         </div>
         
-        <div 
-          className="slider-container" 
-          ref={sliderRef}
-          onMouseEnter={() => setIsPaused(true)}
-          onMouseLeave={() => setIsPaused(false)}
-        >
+        <div className="slider-container" ref={sliderRef}>
           <div 
             className="slider-track" 
             style={{ 
