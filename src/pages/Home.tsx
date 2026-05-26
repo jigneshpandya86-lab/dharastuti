@@ -90,19 +90,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Collections */}
-      <section className="section container">
-        <h2 className="section-title text-serif">Heritage Collections</h2>
-        <div className="grid-3 collection-grid">
-          {collections.slice(0, 6).map((collection, index) => (
-            <Link to="/collections" key={index} className="collection-tile">
-              <div className="collection-tile-bg"></div>
-              <h3 className="collection-tile-title text-serif">{collection}</h3>
-            </Link>
-          ))}
-        </div>
-      </section>
-
       {/* New Arrivals Slider */}
       <section className="section bg-soft">
         <div className="container">
@@ -137,6 +124,19 @@ export default function Home() {
               onClick={() => setActiveIndex(idx)}
               aria-label={`Go to slide ${idx + 1}`}
             />
+          ))}
+        </div>
+      </section>
+
+      {/* Featured Collections */}
+      <section className="section container">
+        <h2 className="section-title text-serif">Heritage Collections</h2>
+        <div className="grid-3 collection-grid">
+          {collections.slice(0, 6).map((collection, index) => (
+            <Link to="/collections" key={index} className="collection-tile">
+              <div className="collection-tile-bg"></div>
+              <h3 className="collection-tile-title text-serif">{collection}</h3>
+            </Link>
           ))}
         </div>
       </section>
