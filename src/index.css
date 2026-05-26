@@ -9,18 +9,18 @@
   --font-serif: 'Playfair Display', serif;
   --font-sans: 'Inter', sans-serif;
   
-  --spacing-sm: 0.5rem;
-  --spacing-md: 1rem;
-  --spacing-lg: 1.5rem;
-  --spacing-xl: 3rem;
-  --spacing-xxl: 5rem;
+  --spacing-sm: 0.25rem;
+  --spacing-md: 0.5rem;
+  --spacing-lg: 1rem;
+  --spacing-xl: 1.5rem;
+  --spacing-xxl: 2.5rem;
 }
 
 @media (min-width: 768px) {
   :root {
-    --spacing-lg: 2rem;
-    --spacing-xl: 4rem;
-    --spacing-xxl: 8rem;
+    --spacing-lg: 1.25rem;
+    --spacing-xl: 2rem;
+    --spacing-xxl: 3.5rem;
   }
 }
 
@@ -34,70 +34,70 @@ body {
   font-family: var(--font-sans);
   background-color: var(--color-bg);
   color: var(--color-text);
-  line-height: 1.6;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-serif);
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.1;
   color: var(--color-accent);
 }
 
 h1 {
-  font-size: clamp(2.5rem, 8vw, 4rem);
-  margin-bottom: var(--spacing-lg);
+  font-size: clamp(2rem, 6vw, 3rem);
+  margin-bottom: var(--spacing-md);
 }
 
 h2 {
-  font-size: clamp(1.75rem, 5vw, 2.5rem);
-  margin-top: var(--spacing-xl);
-  margin-bottom: var(--spacing-md);
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  margin-top: var(--spacing-lg);
+  margin-bottom: var(--spacing-sm);
 }
 
 h3 {
-  font-size: 1.5rem;
-  margin-bottom: var(--spacing-md);
+  font-size: 1.25rem;
+  margin-bottom: var(--spacing-sm);
 }
 
 p {
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
 }
 
 /* Page Layouts */
 .page-container {
   max-width: 900px;
   margin: 0 auto;
-  padding: var(--spacing-xxl) var(--spacing-md);
+  padding: var(--spacing-xl) var(--spacing-md);
 }
 
 .text-content {
-  line-height: 1.8;
-  font-size: 1.1rem;
+  line-height: 1.6;
+  font-size: 1rem;
 }
 
 .text-content p {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .text-content h2 {
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .text-content ul {
-  margin-bottom: 1.5rem;
-  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+  padding-left: 1.25rem;
 }
 
 .text-content li {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .section-title {
   text-align: center;
-  margin-bottom: var(--spacing-xl);
+  margin-bottom: var(--spacing-lg);
 }
 
 /* Utils */
@@ -118,7 +118,7 @@ a {
 
 .main-content {
   flex-grow: 1;
-  padding-top: 64px; /* Account for fixed header */
+  padding-top: 50px; /* Slimmer header account */
 }
 
 /* Typography Utility */
