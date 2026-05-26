@@ -19,7 +19,7 @@ export default function ArtworkDetail() {
     ? `Hi Dharastuti Art, I'm interested in the artwork '${artwork.title}' (SKU: ${artwork.sku}). Is this still available for delivery?`
     : `Hi! I saw the '${artwork.title}' piece was sold, but I love the style. Do you take commissions for similar pieces?`;
   
-  const waLink = `https://wa.me/919725001354?text=${encodeURIComponent(waMessage)}`;
+  const waLink = `https://wa.me/918980846362?text=${encodeURIComponent(waMessage)}`;
 
   return (
     <div className="pdp container">

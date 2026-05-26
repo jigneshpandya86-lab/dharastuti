@@ -16,7 +16,7 @@ export default function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
     const itemsText = cartItems.map(item => `- ${item.title} (SKU: ${item.sku}) - ${item.price}`).join('\n');
     const message = `Hi Dharastuti Art, I'd like to purchase the following items:\n\n${itemsText}\n\nTotal: ${cartTotal}\n\nPlease let me know the next steps for payment and shipping.`;
     
-    const waLink = `https://wa.me/919725001354?text=${encodeURIComponent(message)}`;
+    const waLink = `https://wa.me/918980846362?text=${encodeURIComponent(message)}`;
     window.open(waLink, '_blank');
   };
 

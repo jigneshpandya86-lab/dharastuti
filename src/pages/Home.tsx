@@ -97,7 +97,7 @@ export default function Home() {
         <div className="commission-content container">
           <h2 className="text-serif">Bespoke Traditions</h2>
           <p className="text-sans">Looking for something specific? Connect with us for custom handloom requirements.</p>
-          <a href="https://wa.me/919725001354?text=Hello!%20I’d%20like%20to%20discuss%20a%20custom%20handloom%20requirement." target="_blank" rel="noopener noreferrer" className="btn btn-outline">Inquire on WhatsApp</a>
+          <a href="https://wa.me/918980846362?text=Hello!%20I’d%20like%20to%20discuss%20a%20custom%20handloom%20requirement." target="_blank" rel="noopener noreferrer" className="btn btn-outline">Inquire on WhatsApp</a>
         </div>
       </section>
     </div>

@@ -66,7 +66,7 @@ export default function Collections() {
           <div className="empty-state text-center">
             <p className="text-serif" style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>All pieces currently found a home.</p>
             <p className="text-sans" style={{ marginBottom: '2rem', opacity: 0.8 }}>Request a commission?</p>
-            <a href="https://wa.me/919725001354?text=Hello!%20I’d%20like%20to%20discuss%20a%20custom%20commission." target="_blank" rel="noopener noreferrer" className="btn btn-primary">Start a Commission</a>
+            <a href="https://wa.me/918980846362?text=Hello!%20I’d%20like%20to%20discuss%20a%20custom%20commission." target="_blank" rel="noopener noreferrer" className="btn btn-primary">Start a Commission</a>
           </div>
         )}
       </div>

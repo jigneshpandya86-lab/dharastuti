@@ -34,7 +34,7 @@ export default function Header({ onCartOpen, onMenuOpen }: HeaderProps) {
             <ShoppingBag size={20} />
             {cartCount > 0 && <span className="cart-badge">{cartCount}</span>}
           </button>
-          <a href="https://wa.me/919725001354" target="_blank" rel="noopener noreferrer" className="icon-btn" aria-label="Inquire">
+          <a href="https://wa.me/918980846362" target="_blank" rel="noopener noreferrer" className="icon-btn" aria-label="Inquire">
             <MessageCircle size={20} />
           </a>
         </div>
