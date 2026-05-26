@@ -1,12 +1,12 @@
 .pdp {
-  padding: var(--spacing-lg) 0 var(--spacing-xxl) 0;
+  padding: var(--spacing-md) 0 var(--spacing-xl) 0;
 }
 
 .breadcrumbs {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
   color: var(--color-text);
   opacity: 0.6;
 }
@@ -77,17 +77,17 @@
 
 .pdp-info {
   position: sticky;
-  top: 100px;
+  top: 80px;
   align-self: start;
 }
 
 .pdp-header {
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
 }
 
 .pdp-title {
-  font-size: 2.5rem;
-  margin-bottom: 0.25rem;
+  font-size: 2rem;
+  margin-bottom: 0.15rem;
 }
 
 .pdp-code {
