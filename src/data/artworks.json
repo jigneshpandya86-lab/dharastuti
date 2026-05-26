@@ -1,62 +1,1028 @@
 [
   {
-    "id": "sku1",
-    "sku": "SKU1",
+    "id": "sku1a",
+    "sku": "SKU1a",
     "title": "Cotton Mulmul Handblock Saree",
     "collection": "Natural Dyes Hand Block",
     "category": "Sarees",
-    "price": "₹3,500",
+    "price": "₹1,159",
     "isAvailable": true,
-    "images": ["/images/artworks/placeholder.jpg"],
+    "images": [
+      "/images/artworks/SKU1a.jpeg"
+    ],
     "size": "6.5 mtr with blouse",
     "medium": "Cotton mulmul handblock",
     "pattern": "Natural Dyes hand block",
     "description": "Fabric : Cotton Mulmul saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
-    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking"
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
   },
   {
-    "id": "sku2",
-    "sku": "SKU2",
+    "id": "sku1b",
+    "sku": "SKU1b",
+    "title": "Cotton Mulmul Handblock Saree",
+    "collection": "Natural Dyes Hand Block",
+    "category": "Sarees",
+    "price": "₹1,159",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU1b.jpeg"
+    ],
+    "size": "6.5 mtr with blouse",
+    "medium": "Cotton mulmul handblock",
+    "pattern": "Natural Dyes hand block",
+    "description": "Fabric : Cotton Mulmul saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku1c",
+    "sku": "SKU1c",
+    "title": "Cotton Mulmul Handblock Saree",
+    "collection": "Natural Dyes Hand Block",
+    "category": "Sarees",
+    "price": "₹1,159",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU1c.jpeg"
+    ],
+    "size": "6.5 mtr with blouse",
+    "medium": "Cotton mulmul handblock",
+    "pattern": "Natural Dyes hand block",
+    "description": "Fabric : Cotton Mulmul saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku1d",
+    "sku": "SKU1d",
+    "title": "Cotton Mulmul Handblock Saree",
+    "collection": "Natural Dyes Hand Block",
+    "category": "Sarees",
+    "price": "₹1,159",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU1d.jpeg"
+    ],
+    "size": "6.5 mtr with blouse",
+    "medium": "Cotton mulmul handblock",
+    "pattern": "Natural Dyes hand block",
+    "description": "Fabric : Cotton Mulmul saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku1e",
+    "sku": "SKU1e",
+    "title": "Cotton Mulmul Handblock Saree",
+    "collection": "Natural Dyes Hand Block",
+    "category": "Sarees",
+    "price": "₹1,159",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU1e.jpeg"
+    ],
+    "size": "6.5 mtr with blouse",
+    "medium": "Cotton mulmul handblock",
+    "pattern": "Natural Dyes hand block",
+    "description": "Fabric : Cotton Mulmul saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku1f",
+    "sku": "SKU1f",
+    "title": "Cotton Mulmul Handblock Saree",
+    "collection": "Natural Dyes Hand Block",
+    "category": "Sarees",
+    "price": "₹1,159",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU1f.jpeg"
+    ],
+    "size": "6.5 mtr with blouse",
+    "medium": "Cotton mulmul handblock",
+    "pattern": "Natural Dyes hand block",
+    "description": "Fabric : Cotton Mulmul saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku1g",
+    "sku": "SKU1g",
+    "title": "Cotton Mulmul Handblock Saree",
+    "collection": "Natural Dyes Hand Block",
+    "category": "Sarees",
+    "price": "₹1,159",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU1g.jpeg"
+    ],
+    "size": "6.5 mtr with blouse",
+    "medium": "Cotton mulmul handblock",
+    "pattern": "Natural Dyes hand block",
+    "description": "Fabric : Cotton Mulmul saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku1h",
+    "sku": "SKU1h",
+    "title": "Cotton Mulmul Handblock Saree",
+    "collection": "Natural Dyes Hand Block",
+    "category": "Sarees",
+    "price": "₹1,159",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU1h.jpeg"
+    ],
+    "size": "6.5 mtr with blouse",
+    "medium": "Cotton mulmul handblock",
+    "pattern": "Natural Dyes hand block",
+    "description": "Fabric : Cotton Mulmul saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku1i",
+    "sku": "SKU1i",
+    "title": "Cotton Mulmul Handblock Saree",
+    "collection": "Natural Dyes Hand Block",
+    "category": "Sarees",
+    "price": "₹1,159",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU1i.jpeg"
+    ],
+    "size": "6.5 mtr with blouse",
+    "medium": "Cotton mulmul handblock",
+    "pattern": "Natural Dyes hand block",
+    "description": "Fabric : Cotton Mulmul saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku1j",
+    "sku": "SKU1j",
+    "title": "Cotton Mulmul Handblock Saree",
+    "collection": "Natural Dyes Hand Block",
+    "category": "Sarees",
+    "price": "₹1,159",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU1j.jpeg"
+    ],
+    "size": "6.5 mtr with blouse",
+    "medium": "Cotton mulmul handblock",
+    "pattern": "Natural Dyes hand block",
+    "description": "Fabric : Cotton Mulmul saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku2a",
+    "sku": "SKU2a",
     "title": "Linen Cotton Handblock Saree",
     "collection": "Natural Dyes Hand Block",
     "category": "Sarees",
-    "price": "₹4,200",
+    "price": "₹1,359",
     "isAvailable": true,
-    "images": ["/images/artworks/placeholder.jpg"],
+    "images": [
+      "/images/artworks/SKU2a.jpeg"
+    ],
     "size": "6.5 mtr with blouse",
     "medium": "Linen cotton",
     "pattern": "Natural Dyes hand block",
     "description": "Fabric : Linen cotton saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
-    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking"
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
   },
   {
-    "id": "sku3",
-    "sku": "SKU3",
+    "id": "sku2b",
+    "sku": "SKU2b",
+    "title": "Linen Cotton Handblock Saree",
+    "collection": "Natural Dyes Hand Block",
+    "category": "Sarees",
+    "price": "₹1,359",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU2b.jpeg"
+    ],
+    "size": "6.5 mtr with blouse",
+    "medium": "Linen cotton",
+    "pattern": "Natural Dyes hand block",
+    "description": "Fabric : Linen cotton saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku2c",
+    "sku": "SKU2c",
+    "title": "Linen Cotton Handblock Saree",
+    "collection": "Natural Dyes Hand Block",
+    "category": "Sarees",
+    "price": "₹1,359",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU2c.jpeg"
+    ],
+    "size": "6.5 mtr with blouse",
+    "medium": "Linen cotton",
+    "pattern": "Natural Dyes hand block",
+    "description": "Fabric : Linen cotton saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku2d",
+    "sku": "SKU2d",
+    "title": "Linen Cotton Handblock Saree",
+    "collection": "Natural Dyes Hand Block",
+    "category": "Sarees",
+    "price": "₹1,359",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU2d.jpeg"
+    ],
+    "size": "6.5 mtr with blouse",
+    "medium": "Linen cotton",
+    "pattern": "Natural Dyes hand block",
+    "description": "Fabric : Linen cotton saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku2e",
+    "sku": "SKU2e",
+    "title": "Linen Cotton Handblock Saree",
+    "collection": "Natural Dyes Hand Block",
+    "category": "Sarees",
+    "price": "₹1,359",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU2e.jpeg"
+    ],
+    "size": "6.5 mtr with blouse",
+    "medium": "Linen cotton",
+    "pattern": "Natural Dyes hand block",
+    "description": "Fabric : Linen cotton saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku2f",
+    "sku": "SKU2f",
+    "title": "Linen Cotton Handblock Saree",
+    "collection": "Natural Dyes Hand Block",
+    "category": "Sarees",
+    "price": "₹1,359",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU2f.jpeg"
+    ],
+    "size": "6.5 mtr with blouse",
+    "medium": "Linen cotton",
+    "pattern": "Natural Dyes hand block",
+    "description": "Fabric : Linen cotton saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku2g",
+    "sku": "SKU2g",
+    "title": "Linen Cotton Handblock Saree",
+    "collection": "Natural Dyes Hand Block",
+    "category": "Sarees",
+    "price": "₹1,359",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU2g.jpeg"
+    ],
+    "size": "6.5 mtr with blouse",
+    "medium": "Linen cotton",
+    "pattern": "Natural Dyes hand block",
+    "description": "Fabric : Linen cotton saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku2h",
+    "sku": "SKU2h",
+    "title": "Linen Cotton Handblock Saree",
+    "collection": "Natural Dyes Hand Block",
+    "category": "Sarees",
+    "price": "₹1,359",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU2h.jpeg"
+    ],
+    "size": "6.5 mtr with blouse",
+    "medium": "Linen cotton",
+    "pattern": "Natural Dyes hand block",
+    "description": "Fabric : Linen cotton saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku2i",
+    "sku": "SKU2i",
+    "title": "Linen Cotton Handblock Saree",
+    "collection": "Natural Dyes Hand Block",
+    "category": "Sarees",
+    "price": "₹1,359",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU2i.jpeg"
+    ],
+    "size": "6.5 mtr with blouse",
+    "medium": "Linen cotton",
+    "pattern": "Natural Dyes hand block",
+    "description": "Fabric : Linen cotton saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku2j",
+    "sku": "SKU2j",
+    "title": "Linen Cotton Handblock Saree",
+    "collection": "Natural Dyes Hand Block",
+    "category": "Sarees",
+    "price": "₹1,359",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU2j.jpeg"
+    ],
+    "size": "6.5 mtr with blouse",
+    "medium": "Linen cotton",
+    "pattern": "Natural Dyes hand block",
+    "description": "Fabric : Linen cotton saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku2k",
+    "sku": "SKU2k",
+    "title": "Linen Cotton Handblock Saree",
+    "collection": "Natural Dyes Hand Block",
+    "category": "Sarees",
+    "price": "₹1,359",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU2k.jpeg"
+    ],
+    "size": "6.5 mtr with blouse",
+    "medium": "Linen cotton",
+    "pattern": "Natural Dyes hand block",
+    "description": "Fabric : Linen cotton saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku2l",
+    "sku": "SKU2l",
+    "title": "Linen Cotton Handblock Saree",
+    "collection": "Natural Dyes Hand Block",
+    "category": "Sarees",
+    "price": "₹1,359",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU2l.jpeg"
+    ],
+    "size": "6.5 mtr with blouse",
+    "medium": "Linen cotton",
+    "pattern": "Natural Dyes hand block",
+    "description": "Fabric : Linen cotton saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku2m",
+    "sku": "SKU2m",
+    "title": "Linen Cotton Handblock Saree",
+    "collection": "Natural Dyes Hand Block",
+    "category": "Sarees",
+    "price": "₹1,359",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU2m.jpeg"
+    ],
+    "size": "6.5 mtr with blouse",
+    "medium": "Linen cotton",
+    "pattern": "Natural Dyes hand block",
+    "description": "Fabric : Linen cotton saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku2n",
+    "sku": "SKU2n",
+    "title": "Linen Cotton Handblock Saree",
+    "collection": "Natural Dyes Hand Block",
+    "category": "Sarees",
+    "price": "₹1,359",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU2n.jpeg"
+    ],
+    "size": "6.5 mtr with blouse",
+    "medium": "Linen cotton",
+    "pattern": "Natural Dyes hand block",
+    "description": "Fabric : Linen cotton saree handblock printed with natural dyes\nSize : 6.5 mtr with blouse",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku3a",
+    "sku": "SKU3a",
     "title": "Linen Cotton Unstitched Suit Set",
     "collection": "Natural Dyes Hand Block",
     "category": "unstitched suits",
-    "price": "₹3,800",
+    "price": "₹1,379",
     "isAvailable": true,
-    "images": ["/images/artworks/placeholder.jpg"],
+    "images": [
+      "/images/artworks/SKU3a.jpeg"
+    ],
     "size": "Top: 2.5m, Bottom: 2.5m, Dupatta: 2.5m",
     "medium": "Linen cotton",
     "pattern": "Natural Dyes hand block",
     "description": "Top Fabric : Linen\nBottom Fabric : Cotton\nDupatta Fabric : Linen\nTop Length : 2.5 Mtr\nBottom Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 3 Pcs suit (top, bottom and Dupatta)",
-    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking"
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
   },
   {
-    "id": "sku4",
-    "sku": "SKU4",
+    "id": "sku3b",
+    "sku": "SKU3b",
+    "title": "Linen Cotton Unstitched Suit Set",
+    "collection": "Natural Dyes Hand Block",
+    "category": "unstitched suits",
+    "price": "₹1,379",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU3b.jpeg"
+    ],
+    "size": "Top: 2.5m, Bottom: 2.5m, Dupatta: 2.5m",
+    "medium": "Linen cotton",
+    "pattern": "Natural Dyes hand block",
+    "description": "Top Fabric : Linen\nBottom Fabric : Cotton\nDupatta Fabric : Linen\nTop Length : 2.5 Mtr\nBottom Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 3 Pcs suit (top, bottom and Dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku3c",
+    "sku": "SKU3c",
+    "title": "Linen Cotton Unstitched Suit Set",
+    "collection": "Natural Dyes Hand Block",
+    "category": "unstitched suits",
+    "price": "₹1,379",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU3c.jpeg"
+    ],
+    "size": "Top: 2.5m, Bottom: 2.5m, Dupatta: 2.5m",
+    "medium": "Linen cotton",
+    "pattern": "Natural Dyes hand block",
+    "description": "Top Fabric : Linen\nBottom Fabric : Cotton\nDupatta Fabric : Linen\nTop Length : 2.5 Mtr\nBottom Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 3 Pcs suit (top, bottom and Dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku3d",
+    "sku": "SKU3d",
+    "title": "Linen Cotton Unstitched Suit Set",
+    "collection": "Natural Dyes Hand Block",
+    "category": "unstitched suits",
+    "price": "₹1,379",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU3d.jpeg"
+    ],
+    "size": "Top: 2.5m, Bottom: 2.5m, Dupatta: 2.5m",
+    "medium": "Linen cotton",
+    "pattern": "Natural Dyes hand block",
+    "description": "Top Fabric : Linen\nBottom Fabric : Cotton\nDupatta Fabric : Linen\nTop Length : 2.5 Mtr\nBottom Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 3 Pcs suit (top, bottom and Dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku3e",
+    "sku": "SKU3e",
+    "title": "Linen Cotton Unstitched Suit Set",
+    "collection": "Natural Dyes Hand Block",
+    "category": "unstitched suits",
+    "price": "₹1,379",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU3e.jpeg"
+    ],
+    "size": "Top: 2.5m, Bottom: 2.5m, Dupatta: 2.5m",
+    "medium": "Linen cotton",
+    "pattern": "Natural Dyes hand block",
+    "description": "Top Fabric : Linen\nBottom Fabric : Cotton\nDupatta Fabric : Linen\nTop Length : 2.5 Mtr\nBottom Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 3 Pcs suit (top, bottom and Dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku3f",
+    "sku": "SKU3f",
+    "title": "Linen Cotton Unstitched Suit Set",
+    "collection": "Natural Dyes Hand Block",
+    "category": "unstitched suits",
+    "price": "₹1,379",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU3f.jpeg"
+    ],
+    "size": "Top: 2.5m, Bottom: 2.5m, Dupatta: 2.5m",
+    "medium": "Linen cotton",
+    "pattern": "Natural Dyes hand block",
+    "description": "Top Fabric : Linen\nBottom Fabric : Cotton\nDupatta Fabric : Linen\nTop Length : 2.5 Mtr\nBottom Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 3 Pcs suit (top, bottom and Dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku3g",
+    "sku": "SKU3g",
+    "title": "Linen Cotton Unstitched Suit Set",
+    "collection": "Natural Dyes Hand Block",
+    "category": "unstitched suits",
+    "price": "₹1,379",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU3g.jpeg"
+    ],
+    "size": "Top: 2.5m, Bottom: 2.5m, Dupatta: 2.5m",
+    "medium": "Linen cotton",
+    "pattern": "Natural Dyes hand block",
+    "description": "Top Fabric : Linen\nBottom Fabric : Cotton\nDupatta Fabric : Linen\nTop Length : 2.5 Mtr\nBottom Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 3 Pcs suit (top, bottom and Dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku3h",
+    "sku": "SKU3h",
+    "title": "Linen Cotton Unstitched Suit Set",
+    "collection": "Natural Dyes Hand Block",
+    "category": "unstitched suits",
+    "price": "₹1,379",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU3h.jpeg"
+    ],
+    "size": "Top: 2.5m, Bottom: 2.5m, Dupatta: 2.5m",
+    "medium": "Linen cotton",
+    "pattern": "Natural Dyes hand block",
+    "description": "Top Fabric : Linen\nBottom Fabric : Cotton\nDupatta Fabric : Linen\nTop Length : 2.5 Mtr\nBottom Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 3 Pcs suit (top, bottom and Dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4a",
+    "sku": "SKU4a",
     "title": "Kota Doriya Unstitched Suit Set",
     "collection": "Embroidery",
     "category": "unstitched suits",
-    "price": "₹2,900",
+    "price": "₹1,329",
     "isAvailable": true,
-    "images": ["/images/artworks/placeholder.jpg"],
+    "images": [
+      "/images/artworks/SKU4a.jpeg"
+    ],
     "size": "Top: 2.5m, Dupatta: 2.5m",
     "medium": "Kota Doriya",
     "pattern": "Embroidery",
     "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
-    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking"
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4b",
+    "sku": "SKU4b",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4b.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4c",
+    "sku": "SKU4c",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4c.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4d",
+    "sku": "SKU4d",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4d.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4e",
+    "sku": "SKU4e",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4e.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4f",
+    "sku": "SKU4f",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4f.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4g",
+    "sku": "SKU4g",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4g.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4h",
+    "sku": "SKU4h",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4h.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4i",
+    "sku": "SKU4i",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4i.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4j",
+    "sku": "SKU4j",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4j.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4k",
+    "sku": "SKU4k",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4k.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4l",
+    "sku": "SKU4l",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4l.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4m",
+    "sku": "SKU4m",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4m.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4n",
+    "sku": "SKU4n",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4n.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4o",
+    "sku": "SKU4o",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4o.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4p",
+    "sku": "SKU4p",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4p.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4q",
+    "sku": "SKU4q",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4q.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4r",
+    "sku": "SKU4r",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4r.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4s",
+    "sku": "SKU4s",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4s.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4t",
+    "sku": "SKU4t",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4t.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4u",
+    "sku": "SKU4u",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4u.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4v",
+    "sku": "SKU4v",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4v.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4w",
+    "sku": "SKU4w",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4w.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4x",
+    "sku": "SKU4x",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4x.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
+  },
+  {
+    "id": "sku4y",
+    "sku": "SKU4y",
+    "title": "Kota Doriya Unstitched Suit Set",
+    "collection": "Embroidery",
+    "category": "unstitched suits",
+    "price": "₹1,329",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU4y.jpeg"
+    ],
+    "size": "Top: 2.5m, Dupatta: 2.5m",
+    "medium": "Kota Doriya",
+    "pattern": "Embroidery",
+    "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
+    "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
+    "stock": 1
   }
 ]
