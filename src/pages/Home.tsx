@@ -76,7 +76,7 @@ export default function Home() {
           <div 
             className="slider-track" 
             style={{ 
-              transform: `translateX(calc(-${activeIndex} * var(--slider-item-width) - ${activeIndex} * var(--spacing-lg)))` 
+              transform: `translateX(calc(-${activeIndex} * var(--slider-item-width) - ${activeIndex} * var(--spacing-md)))` 
             }}
           >
             {newArrivals.map((art) => (

@@ -60,7 +60,8 @@
 }
 
 :root {
-  --slider-item-width: 280px;
+  /* On mobile, show roughly 2 items (50% minus some gap) */
+  --slider-item-width: calc(50vw - 1.5rem);
 }
 
 @media (min-width: 768px) {
@@ -77,12 +78,12 @@
   overflow: hidden;
   position: relative;
   width: 100%;
-  padding: var(--spacing-sm) 0;
+  padding: var(--spacing-md) 0;
 }
 
 .slider-track {
   display: flex;
-  gap: var(--spacing-md);
+  gap: var(--spacing-md); /* Ensure this matches the JS calculation gap */
   transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   padding: 0 var(--spacing-md);
 }
