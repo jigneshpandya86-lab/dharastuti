@@ -143,7 +143,6 @@
 .collection-tile-bg {
   position: absolute;
   inset: 0;
-  background-image: url('/images/artworks/SKU1a.jpeg');
   background-size: cover;
   background-position: center;
   opacity: 0.7; /* Increased opacity for better product visibility */
@@ -158,12 +157,6 @@
   background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%);
   z-index: 1;
 }
-
-.collection-tile:nth-child(2) .collection-tile-bg { background-image: url('/images/artworks/SKU2a.jpeg'); }
-.collection-tile:nth-child(3) .collection-tile-bg { background-image: url('/images/artworks/SKU3a.jpeg'); }
-.collection-tile:nth-child(4) .collection-tile-bg { background-image: url('/images/artworks/SKU4a.jpeg'); }
-.collection-tile:nth-child(5) .collection-tile-bg { background-image: url('/images/artworks/SKU1b.jpeg'); }
-.collection-tile:nth-child(6) .collection-tile-bg { background-image: url('/images/artworks/SKU2b.jpeg'); }
 
 .collection-tile:hover .collection-tile-bg {
   opacity: 0.8;

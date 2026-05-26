@@ -1024,5 +1024,131 @@
     "description": "Top Fabric : Kota doriya soft cotton\nDupatta Fabric : Kota doriya soft cotton\nTop Length : 2.5 Mtr\nDupatta Length : 2.5 Mtr\nStitch Type : Unstitched\n\nProduct Type : 2 Pcs suit (top and dupatta)",
     "washingTips": "This natural fibres are very soft, breathable and hence requires gentle approach towards the cloth to preserve their delicate weaves, natural dyes, and unique textures.\n\n- Natural dyes may bleed in first wash\n- Avoid drying in high sunlight area.\n- Gentle wash with mild detergents,\n- Avoid scrubbing and overnight soaking",
     "stock": 1
+  },
+  {
+    "id": "sku5a",
+    "sku": "SKU5a",
+    "title": "Vaalai Pattu (Banana Silk) Saree",
+    "collection": "Vaalai Pattu",
+    "category": "Sarees",
+    "price": "₹1,989",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU5a.jpeg"
+    ],
+    "size": "5.3 to 5.5 meters with 0.8–1 meter unstitched running blouse piece",
+    "medium": "Handloom soft silk or synthetic blended fibers",
+    "pattern": "Dual-tone color shades, contrast pallus and intricate woven or zari border",
+    "description": "Fabric: Handloom soft silk or synthetic blended fibers.\nTexture: Lightweight, soft, and easy to drape with a characteristic natural sheen.\nLength: Usually 5.3 to 5.5 meters with 0.8–1 meter unstitched running blouse piece.\nDesign: Known for dual-tone color shades, contrast pallus and intricate woven or zari border.\n\nThese traditional handloom sarees have a shiny, soft, and dual-tone texture made from Banana stem fibres.",
+    "washingTips": "Strictly dry wash only.",
+    "stock": 1
+  },
+  {
+    "id": "sku5b",
+    "sku": "SKU5b",
+    "title": "Vaalai Pattu (Banana Silk) Saree",
+    "collection": "Vaalai Pattu",
+    "category": "Sarees",
+    "price": "₹1,989",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU5b.jpeg"
+    ],
+    "size": "5.3 to 5.5 meters with 0.8–1 meter unstitched running blouse piece",
+    "medium": "Handloom soft silk or synthetic blended fibers",
+    "pattern": "Dual-tone color shades, contrast pallus and intricate woven or zari border",
+    "description": "Fabric: Handloom soft silk or synthetic blended fibers.\nTexture: Lightweight, soft, and easy to drape with a characteristic natural sheen.\nLength: Usually 5.3 to 5.5 meters with 0.8–1 meter unstitched running blouse piece.\nDesign: Known for dual-tone color shades, contrast pallus and intricate woven or zari border.\n\nThese traditional handloom sarees have a shiny, soft, and dual-tone texture made from Banana stem fibres.",
+    "washingTips": "Strictly dry wash only.",
+    "stock": 1
+  },
+  {
+    "id": "sku6a",
+    "sku": "SKU6a",
+    "title": "Kanchi Cotton Saree",
+    "collection": "Kanchi Cotton",
+    "category": "Sarees",
+    "price": "₹1,589",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU6a.jpeg"
+    ],
+    "size": "5.3 to 5.5 meters with 0.8–1 meter unstitched running blouse piece",
+    "medium": "High-grade cotton",
+    "pattern": "Plain cotton with zari borders",
+    "description": "Kanchi cotton sarees are traditional, handwoven cotton draperies originating from the temple town of Kanchipuram, Tamil Nadu.\n\nFabric & Drape: Made from high-grade cotton, these sarees have a natural crispness that holds its shape beautifully throughout the day.\nTexture: Lightweight, soft and breathable cotton.\nLength: Usually 5.3 to 5.5 meters with 0.8–1 meter unstitched running blouse piece.\nDesign: High grade plain cotton sarees with zari borders.",
+    "washingTips": "1st dry wash recommended for Zari borders and washing at home should be gentle wash with mild detergents.",
+    "stock": 1
+  },
+  {
+    "id": "sku6b",
+    "sku": "SKU6b",
+    "title": "Kanchi Cotton Saree",
+    "collection": "Kanchi Cotton",
+    "category": "Sarees",
+    "price": "₹1,589",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU6b.jpeg"
+    ],
+    "size": "5.3 to 5.5 meters with 0.8–1 meter unstitched running blouse piece",
+    "medium": "High-grade cotton",
+    "pattern": "Plain cotton with zari borders",
+    "description": "Kanchi cotton sarees are traditional, handwoven cotton draperies originating from the temple town of Kanchipuram, Tamil Nadu.\n\nFabric & Drape: Made from high-grade cotton, these sarees have a natural crispness that holds its shape beautifully throughout the day.\nTexture: Lightweight, soft and breathable cotton.\nLength: Usually 5.3 to 5.5 meters with 0.8–1 meter unstitched running blouse piece.\nDesign: High grade plain cotton sarees with zari borders.",
+    "washingTips": "1st dry wash recommended for Zari borders and washing at home should be gentle wash with mild detergents.",
+    "stock": 1
+  },
+  {
+    "id": "sku6c",
+    "sku": "SKU6c",
+    "title": "Kanchi Cotton Saree",
+    "collection": "Kanchi Cotton",
+    "category": "Sarees",
+    "price": "₹1,589",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU6c.jpeg"
+    ],
+    "size": "5.3 to 5.5 meters with 0.8–1 meter unstitched running blouse piece",
+    "medium": "High-grade cotton",
+    "pattern": "Plain cotton with zari borders",
+    "description": "Kanchi cotton sarees are traditional, handwoven cotton draperies originating from the temple town of Kanchipuram, Tamil Nadu.\n\nFabric & Drape: Made from high-grade cotton, these sarees have a natural crispness that holds its shape beautifully throughout the day.\nTexture: Lightweight, soft and breathable cotton.\nLength: Usually 5.3 to 5.5 meters with 0.8–1 meter unstitched running blouse piece.\nDesign: High grade plain cotton sarees with zari borders.",
+    "washingTips": "1st dry wash recommended for Zari borders and washing at home should be gentle wash with mild detergents.",
+    "stock": 1
+  },
+  {
+    "id": "sku6d",
+    "sku": "SKU6d",
+    "title": "Kanchi Cotton Saree",
+    "collection": "Kanchi Cotton",
+    "category": "Sarees",
+    "price": "₹1,589",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU6d.jpeg"
+    ],
+    "size": "5.3 to 5.5 meters with 0.8–1 meter unstitched running blouse piece",
+    "medium": "High-grade cotton",
+    "pattern": "Plain cotton with zari borders",
+    "description": "Kanchi cotton sarees are traditional, handwoven cotton draperies originating from the temple town of Kanchipuram, Tamil Nadu.\n\nFabric & Drape: Made from high-grade cotton, these sarees have a natural crispness that holds its shape beautifully throughout the day.\nTexture: Lightweight, soft and breathable cotton.\nLength: Usually 5.3 to 5.5 meters with 0.8–1 meter unstitched running blouse piece.\nDesign: High grade plain cotton sarees with zari borders.",
+    "washingTips": "1st dry wash recommended for Zari borders and washing at home should be gentle wash with mild detergents.",
+    "stock": 1
+  },
+  {
+    "id": "sku6e",
+    "sku": "SKU6e",
+    "title": "Kanchi Cotton Saree",
+    "collection": "Kanchi Cotton",
+    "category": "Sarees",
+    "price": "₹1,589",
+    "isAvailable": true,
+    "images": [
+      "/images/artworks/SKU6e.jpeg"
+    ],
+    "size": "5.3 to 5.5 meters with 0.8–1 meter unstitched running blouse piece",
+    "medium": "High-grade cotton",
+    "pattern": "Plain cotton with zari borders",
+    "description": "Kanchi cotton sarees are traditional, handwoven cotton draperies originating from the temple town of Kanchipuram, Tamil Nadu.\n\nFabric & Drape: Made from high-grade cotton, these sarees have a natural crispness that holds its shape beautifully throughout the day.\nTexture: Lightweight, soft and breathable cotton.\nLength: Usually 5.3 to 5.5 meters with 0.8–1 meter unstitched running blouse piece.\nDesign: High grade plain cotton sarees with zari borders.",
+    "washingTips": "1st dry wash recommended for Zari borders and washing at home should be gentle wash with mild detergents.",
+    "stock": 1
   }
 ]

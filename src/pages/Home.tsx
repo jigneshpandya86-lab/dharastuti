@@ -105,8 +105,11 @@ export default function Home() {
         <div className="grid-3 collection-grid">
           {collections.slice(0, 6).map((collection, index) => (
             <Link to="/collections" key={index} className="collection-tile">
-              <div className="collection-tile-bg"></div>
-              <h3 className="collection-tile-title text-serif">{collection}</h3>
+              <div 
+                className="collection-tile-bg" 
+                style={{ backgroundImage: `url(${collection.image})` }}
+              ></div>
+              <h3 className="collection-tile-title text-serif">{collection.label}</h3>
             </Link>
           ))}
         </div>
