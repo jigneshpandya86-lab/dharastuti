@@ -8,6 +8,8 @@ import './Home.css';
 export default function Home() {
   const [activeIndex, setActiveIndex] = useState(0);
   const sliderRef = useRef<HTMLDivElement>(null);
+  const touchStart = useRef<number | null>(null);
+  const touchEnd = useRef<number | null>(null);
   
   const newArrivals = artworks.slice(0, 12); // Show more items for manual browsing
 
@@ -17,6 +19,29 @@ export default function Home() {
 
   const handleNext = () => {
     setActiveIndex((prev) => (prev < newArrivals.length - 1 ? prev + 1 : 0));
+  };
+
+  // Touch handlers for swipe detection
+  const onTouchStart = (e: React.TouchEvent) => {
+    touchEnd.current = null;
+    touchStart.current = e.targetTouches[0].clientX;
+  };
+
+  const onTouchMove = (e: React.TouchEvent) => {
+    touchEnd.current = e.targetTouches[0].clientX;
+  };
+
+  const onTouchEnd = () => {
+    if (!touchStart.current || !touchEnd.current) return;
+    const distance = touchStart.current - touchEnd.current;
+    const isLeftSwipe = distance > 50;
+    const isRightSwipe = distance < -50;
+
+    if (isLeftSwipe) {
+      handleNext();
+    } else if (isRightSwipe) {
+      handlePrev();
+    }
   };
 
   return (
@@ -41,7 +66,13 @@ export default function Home() {
           </div>
         </div>
         
-        <div className="slider-container" ref={sliderRef}>
+        <div 
+          className="slider-container" 
+          ref={sliderRef}
+          onTouchStart={onTouchStart}
+          onTouchMove={onTouchMove}
+          onTouchEnd={onTouchEnd}
+        >
           <div 
             className="slider-track" 
             style={{ 
