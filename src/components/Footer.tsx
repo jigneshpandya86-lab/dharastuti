@@ -23,7 +23,9 @@ export default function Footer() {
         <div className="footer-col">
           <h4 className="footer-heading text-sans">Service</h4>
           <ul className="footer-links">
-            <li><Link to="/shipping-policy">Policies & Care</Link></li>
+            <li><Link to="/collections">All Heritage Wear</Link></li>
+            <li><Link to="/collections">Sarees</Link></li>
+            <li><Link to="/commissions">Bespoke Traditions</Link></li>
             <li><Link to="/contact">Contact</Link></li>
           </ul>
         </div>
