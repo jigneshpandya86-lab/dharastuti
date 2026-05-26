@@ -58,40 +58,14 @@ export default function Home() {
 
   return (
     <div className="home">
-      {/* Hero Section Slider */}
-      <section className="hero">
-        <img 
-          src="/images/logo.jpeg" 
-          alt="Dharastuti Logo" 
-          className={`hero-logo-fixed ${heroSlides[heroIndex].theme}`} 
-        />
-        {heroSlides.map((slide, index) => (
-          <div 
-            key={index} 
-            className={`hero-slide ${heroIndex === index ? 'active' : ''} ${slide.theme}`}
-            style={{ backgroundImage: `url(${slide.image})` }}
-          >
-            <div className="hero-content">
-              <h1 className="hero-title text-serif">{slide.title}</h1>
-              <p className="hero-subtitle text-sans">{slide.subtitle}</p>
-              <Link to="/collections" className="btn btn-primary">Browse Collections</Link>
-            </div>
-          </div>
-        ))}
-        <div className="hero-dots">
-          {heroSlides.map((_, idx) => (
-            <button 
-              key={idx} 
-              className={`hero-dot ${heroIndex === idx ? 'active' : ''}`}
-              onClick={() => setHeroIndex(idx)}
-              aria-label={`Go to slide ${idx + 1}`}
-            />
-          ))}
-        </div>
-      </section>
+      <img 
+        src="/images/logo.jpeg" 
+        alt="Dharastuti Logo" 
+        className="hero-logo-fixed" 
+      />
 
-      {/* New Arrivals Slider */}
-      <section className="section bg-soft">
+      {/* New Arrivals Slider (Now at Top) */}
+      <section className="section bg-soft no-padding-top">
         <div className="container">
           <h2 className="section-title text-serif">Handpicked Treasures</h2>
         </div>
