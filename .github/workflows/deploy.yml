@@ -1,6 +1,5 @@
 name: Deploy to GitHub Pages
 
-# Manual trigger comment
 on:
   push:
     branches: ['main']
