@@ -44,14 +44,14 @@ export default function Home() {
   useEffect(() => {
     if (isPaused) return;
 
-    // Start scrolling Handpicked Treasures only after the first hero animation (6s)
+    // Start scrolling Handpicked Treasures only after 3 seconds
     const timeout = setTimeout(() => {
       const interval = setInterval(() => {
         setActiveIndex((current) => (current + 1) % newArrivals.length);
       }, 4000); // Auto scroll SKU slider every 4 seconds
       
       return () => clearInterval(interval);
-    }, 6000);
+    }, 3000);
 
     return () => clearTimeout(timeout);
   }, [newArrivals.length, isPaused]);
