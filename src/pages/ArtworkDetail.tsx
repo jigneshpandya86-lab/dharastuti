@@ -39,7 +39,7 @@ export default function ArtworkDetail() {
     <div className="pdp container">
       {/* Top Navigation Row */}
       <div className="pdp-nav-row">
-        <button className="back-button btn-text" onClick={() => navigate(-1)}>
+        <button className="back-button" onClick={() => navigate(-1)}>
           <span className="back-icon">←</span> Back
         </button>
         {/* Breadcrumbs */}

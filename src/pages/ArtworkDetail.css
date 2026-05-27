@@ -15,10 +15,20 @@
   gap: 0.25rem;
   font-size: 0.9rem;
   font-weight: 500;
-  padding: 0;
+  padding: 0.5rem 0;
   color: var(--color-text);
+  background: transparent;
+  border: none;
+  width: auto;
   text-transform: none;
   letter-spacing: normal;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.back-button:hover {
+  opacity: 0.7;
+  background: transparent;
 }
 
 .back-icon {
@@ -54,28 +64,24 @@
   }
 }
 
-/* Related Artworks Section */
-.related-artworks {
-  border-top: 1px solid var(--color-border);
-  padding-top: var(--spacing-xxl);
-  margin-top: var(--spacing-xxl);
-}
-
-.related-title {
-  font-size: 1.75rem;
-  margin-bottom: var(--spacing-xl);
-  text-align: center;
-}
-
 .pdp-gallery {
   position: relative;
 }
 
-.pdp-main-image {
-  width: 100%;
-  height: auto;
-  display: block;
+.pdp-main-image-container {
   background-color: var(--color-border);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.pdp-main-image {
+  width: auto;
+  max-width: 100%;
+  max-height: 70vh;
+  display: block;
+  object-fit: contain;
 }
 
 .pdp-thumbnails {
