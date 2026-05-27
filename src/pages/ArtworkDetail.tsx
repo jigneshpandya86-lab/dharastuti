@@ -1,18 +1,32 @@
-import { useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { artworks } from '../data/mockData';
 import { useCart } from '../context/CartContext';
+import ArtCard from '../components/ArtCard';
 import './ArtworkDetail.css';
 
 export default function ArtworkDetail() {
   const { id } = useParams<{ id: string }>();
+  const navigate = useNavigate();
   const artwork = artworks.find(a => a.id === id);
-  const [activeImage, setActiveImage] = useState(artwork?.images[0] || '');
+  const [activeImage, setActiveImage] = useState('');
   const { addToCart } = useCart();
+
+  useEffect(() => {
+    if (artwork) {
+      setActiveImage(artwork.images[0]);
+      window.scrollTo(0, 0);
+    }
+  }, [id, artwork]);
 
   if (!artwork) {
     return <div className="container" style={{ padding: '4rem 0', textAlign: 'center' }}>Artwork not found.</div>;
   }
+
+  // Related items logic
+  const relatedItems = artworks
+    .filter(a => a.id !== artwork.id && (a.category === artwork.category || a.collection === artwork.collection))
+    .slice(0, 4);
 
   // Pre-filled WhatsApp message based on availability
   const waMessage = artwork.isAvailable 
@@ -23,10 +37,16 @@ export default function ArtworkDetail() {
 
   return (
     <div className="pdp container">
-      {/* Breadcrumbs */}
-      <nav className="breadcrumbs text-sans">
-        <Link to="/">Home</Link> &gt; <Link to="/collections">Collections</Link> &gt; <span>{artwork.title}</span>
-      </nav>
+      {/* Top Navigation Row */}
+      <div className="pdp-nav-row">
+        <button className="back-button btn-text" onClick={() => navigate(-1)}>
+          <span className="back-icon">←</span> Back
+        </button>
+        {/* Breadcrumbs */}
+        <nav className="breadcrumbs text-sans">
+          <Link to="/">Home</Link> &gt; <Link to="/collections">Collections</Link> &gt; <span>{artwork.title}</span>
+        </nav>
+      </div>
 
       <div className="pdp-grid">
         {/* Left: Gallery */}
@@ -123,6 +143,18 @@ export default function ArtworkDetail() {
           </div>
         </div>
       </div>
+
+      {/* Related Items Section */}
+      {relatedItems.length > 0 && (
+        <section className="related-artworks">
+          <h2 className="related-title text-serif">You May Also Like</h2>
+          <div className="art-grid">
+            {relatedItems.map(item => (
+              <ArtCard key={item.id} artwork={item} />
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   );
 }
