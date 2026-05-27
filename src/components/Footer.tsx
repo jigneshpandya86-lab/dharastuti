@@ -40,7 +40,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom container">
-        <p>&copy; {new Date().getFullYear()} Dharastuti. A unit of ART Enterprise. All rights reserved. • Build: {new Date().toLocaleTimeString()}</p>
+        <p>&copy; {new Date().getFullYear()} Dharastuti. A unit of ART Enterprise. All rights reserved.</p>
       </div>
     </footer>
   );
