@@ -26,7 +26,7 @@ export default function ArtworkDetail() {
   // Related items logic
   const relatedItems = artworks
     .filter(a => a.id !== artwork.id && (a.category === artwork.category || a.collection === artwork.collection))
-    .slice(0, 4);
+    .slice(0, 6);
 
   // Pre-filled WhatsApp message based on availability
   const waMessage = artwork.isAvailable 

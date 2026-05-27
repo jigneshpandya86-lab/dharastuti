@@ -207,23 +207,46 @@
   border-top: 1px solid var(--color-border);
   padding-top: var(--spacing-xxl);
   margin-top: var(--spacing-xxl);
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .related-title {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin-bottom: var(--spacing-xl);
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 .related-artworks .art-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: var(--spacing-md);
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-sm);
 }
 
 @media (min-width: 768px) {
   .related-artworks .art-grid {
-    grid-template-columns: repeat(4, 1fr);
-    gap: var(--spacing-lg);
+    grid-template-columns: repeat(6, 1fr);
+    gap: var(--spacing-md);
   }
+}
+
+/* Make cards in the related section smaller and more compact */
+.related-artworks .art-card-title {
+  font-size: 0.8rem;
+}
+
+.related-artworks .art-card-medium {
+  display: none; /* Hide medium to save space */
+}
+
+.related-artworks .art-card-price {
+  font-size: 0.85rem;
+}
+
+.related-artworks .btn-text {
+  font-size: 0.6rem;
+  padding: 0.3rem 0.5rem;
 }
