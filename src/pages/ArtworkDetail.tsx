@@ -11,6 +11,8 @@ export default function ArtworkDetail() {
   const artwork = artworks.find(a => a.id === id);
   const [activeImage, setActiveImage] = useState('');
   const { addToCart } = useCart();
+  const [showCare, setShowCare] = useState(false);
+  const [showShipping, setShowShipping] = useState(false);
 
   useEffect(() => {
     if (artwork) {
@@ -126,19 +128,35 @@ export default function ArtworkDetail() {
             {artwork.washingTips && (
               <div className="pdp-detail-section">
                 <h3 className="text-sans">Care Instructions</h3>
-                <p className="text-sans" style={{ whiteSpace: 'pre-line' }}>
-                  {artwork.washingTips}
-                </p>
+                <div className={`expandable-content ${showCare ? 'expanded' : 'collapsed'}`}>
+                  <p className="text-sans" style={{ whiteSpace: 'pre-line' }}>
+                    {artwork.washingTips}
+                  </p>
+                </div>
+                <button 
+                  className="read-more-btn" 
+                  onClick={() => setShowCare(!showCare)}
+                >
+                  {showCare ? 'Read Less' : 'Read More'}
+                </button>
               </div>
             )}
 
             <div className="pdp-detail-section">
               <h3 className="text-sans">Shipping & Returns</h3>
-              <p className="text-sans">
-                <strong>Local (Vadodara):</strong> Complimentary studio pickup or secure hand-delivery.<br/>
-                <strong>Domestic:</strong> Securely packaged and shipped across India. Shipping & COD charges are non-refundable (₹200).<br/>
-                <strong>Returns:</strong> Requests must be raised within 48 hours of receipt with an unboxing video.
-              </p>
+              <div className={`expandable-content ${showShipping ? 'expanded' : 'collapsed'}`}>
+                <p className="text-sans">
+                  <strong>Local (Vadodara):</strong> Complimentary studio pickup or secure hand-delivery.<br/>
+                  <strong>Domestic:</strong> Securely packaged and shipped across India. Shipping & COD charges are non-refundable (₹200).<br/>
+                  <strong>Returns:</strong> Requests must be raised within 48 hours of receipt with an unboxing video.
+                </p>
+              </div>
+              <button 
+                className="read-more-btn" 
+                onClick={() => setShowShipping(!showShipping)}
+              >
+                {showShipping ? 'Read Less' : 'Read More'}
+              </button>
             </div>
           </div>
         </div>

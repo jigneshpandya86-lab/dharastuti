@@ -180,12 +180,8 @@
   text-align: center;
 }
 
-.commission-content {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
 .commission-banner h2 {
+  color: inherit;
   font-size: 2.5rem;
   margin-bottom: var(--spacing-md);
 }

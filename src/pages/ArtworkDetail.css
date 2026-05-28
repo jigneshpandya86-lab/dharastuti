@@ -187,6 +187,41 @@
   margin-bottom: var(--spacing-sm);
 }
 
+.expandable-content {
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.expandable-content.collapsed {
+  max-height: 1.5em; /* Roughly one line */
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.expandable-content.expanded {
+  max-height: 500px; /* Large enough to show all content */
+}
+
+.read-more-btn {
+  background: none;
+  border: none;
+  color: var(--color-accent);
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  padding: 0;
+  margin-top: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.read-more-btn:hover {
+  opacity: 0.7;
+}
+
 .pdp-detail-section p, 
 .pdp-detail-section ul {
   font-size: 0.95rem;
